@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-block: 40px;
+}
+
+.head {
+    background: url(./img/fon.png);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.left {
+    display: flex;
+    justify-content: left;
+    padding: 34px 120px;
+    gap: 25px;
+}
+
+.left a {
+    color: #FFF;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-decoration: none;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    
+    
+    
+}
+
+.title {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.title h2 {
+    color: #FFF;
+
+font-family: Raleway;
+font-size: 46px;
+font-style: normal;
+font-weight: 300;
+padding-bottom: 41px;
+line-height: normal;
+}
+
+.title a {
+    color: #FFF;
+
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: uppercase;
+text-decoration: none;
+
+}
+
+.tit h2 {
+    color: #252525;
+    font-family: Raleway;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-block: 30px;
+}
+
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+    
+}
+
+.box1 h2 {
+    color: #252525;
+text-align: center;
+font-family: Raleway;
+font-size: 36px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.box1 p {
+    color: #252525;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+.box1 button {
+    width: 600px;
+    height: 50px;
+    background: #E0BEA2;
+    border-style: none;
+    color: #FFF;
+text-align: center;
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: uppercase;
+
+}
+
+.box1 input {
+    width: 600px;
+height: 50px;
+}
+
+.btn {
+    margin-left: 290px;
+    margin-bottom: 25px;
+}
+
+.forum {
+    margin-left: 290px;
+    padding-block: 40px;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    gap: 47px;
+    padding-top: 100px;
+}
+
+.foot a {
+    color: #252525;
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+text-decoration: none;
+}
+
+.foot h2 {
+    color: #252525;
+    padding-bottom: 20px;
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
